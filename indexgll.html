@@ -2,25 +2,26 @@
 <html>
 <head>
   <title>GLL Web Developer</title>
-  <link rel="stylesheet" type="text/css" href="stylegll.css">
+  <link rel="stylesheet" type="text/css" href="css/style_gll.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<div class="container-fluid">
+<div id="header" class="container">
   <div class="row">
-    <div class="col-lg-4">
-      <h1>Gaye Lowenstein</h1>
+    <div class="col-md-3 col-sm-6">
+      <h2>Gaye Lowenstein</h2>
       <h4>Web Developer</h4>
-      <p>As a recent graduate of General Assembly's Web Development Immersive program, I acquired skills as a full-stack web developer. I built several applications working in week-long sprints using Javascript and the MEAN stack and another project using Ruby on Rails. For each project, I utilized Bootstrap and CSS to style the apps and Git and Git Hub for version control.
-      </p>
     </div>
-    <div class="col-lg-4">
-      <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgtAAAAJDNiMDUwZWZmLTU0ZGEtNDViZC1iZGVlLTRkMGVhZmNiYzdjMw.jpg" alt="Gaye Lowenstein Image">
+    <div class="col-md-3 col-sm-6">
+      <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgtAAAAJDNiMDUwZWZmLTU0ZGEtNDViZC1iZGVlLTRkMGVhZmNiYzdjMw.jpg" class="img-thumbnail img-circle center-block" width="180px" alt="Gaye Lowenstein Image">
     </div>
-    <div class="col-lg-4">
-      <ul>
+
+    <div class="col-md-3 col-sm-6">
+      <ul class="list-unstyled">
         <li>glowenstein@gmail.com</li>
         <li>310.850.9896</li>
         <li>https://www.linkedin.com/in/gayelowenstein</li>
@@ -31,8 +32,123 @@
 
 <hr>
 
+<div class="container left">
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Full-stack web developer. I have built several applications working in week-long sprints using Javascript and the MEAN stack and another project using Ruby on Rails. For each project, I utilized Bootstrap and CSS to style the apps and Git and Git Hub for version control.
+      </p>
+    </div>
+  </div>
+</div>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="appgll.js" type="text/javascript" charset="utf-8" async defer></script>
+<div class="container right">
+  <div class="row">
+    <div class="col-sm-6 ">
+      <div class="pull-right">
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100"  style="width:75%">
+            <span class="skill">Javascript</span>
+          </div>
+        </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+              <span class="skill">HTML</span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+              <span class="skill">CSS</span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+              <span class="skill">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+              <span class="skill">ExpressJS</span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" "meter meter-left" style="width:50%">
+              <span class="skill">NodeJS</span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" "meter meter-left" style="width:50%">
+              <span class="skill">Ruby on Rails</span>
+            </div>
+          </div>
+
+         <span class="skill">PostgreSQL</span>
+         <br>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" "meter meter-left" style="width:90%">
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+
+</div>
+
+
+
+
+
+
+  <!-- <div id="myJavascript">
+    <progress value="70" data-label="Javascript" max="100"></progress>
+  </div>
+
+  <div id="myCSS">
+    <progress value="90" max="100"></progress>
+  </div>
+
+  <div id="myGit">
+    <progress value="90" max="100"></progress>
+  </div>
+
+  <div id="myAngularJS">
+    <progress value="70" max="100"></progress>
+  </div>
+
+  <div id="myMongoDB">
+    <progress value="70" max="100"></progress>
+  </div>
+
+  <div id="myPostGreSQL">
+    <progress value="70" max="100"></progress>
+  </div>
+
+  <div id="myRuby">
+    <progress value="50" max="100"></progress>
+  </div>
+
+  <div id="myNodeJS">
+    <progress value="50" max="100"></progress>
+  </div>
+
+  <div id="myBootstrap">
+    <progress value="80" max="100"></progress>
+  </div>
+</div> -->
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/app_gll.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
